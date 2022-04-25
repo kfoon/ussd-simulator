@@ -1,0 +1,24 @@
+{
+  "name": "ussd-flow-mock",
+  "version": "0.6.2",
+  "description": "Minimal JavaScript/HTML/CSS app to mock up USSD flows for demos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaxolotl/ussd-flow-mock.git"
+  },
+  "keywords": [
+    "javascript",
+    "JS",
+    "ES6",
+    "ECMAScript",
+    "USSD",
+    "Unstructured Supplementary Service Data"
+  ],
+  "author": "Javier Valderrama <jaxolotl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaxolotl/ussd-flow-mock/issues"
+  },
+  "private": true,
+  "homepage": "https://github.com/Jaxolotl/ussd-flow-mock#readme"
+}

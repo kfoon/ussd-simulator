@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>USSD FLOW MOCK</title>
+</head>
+
+<body>
+
+  <div class="phoneFrame app" data-status="options">
+    <div class="displayFrame">
+      <div class="display">
+        <div class="overlay">...</div>
+        <div class="content">
+        </div>
+        <div class="actionsPad">
+          <div data-action="back">Back</div>
+
+          <div data-action="quit">Quit</div>
+          <div data-action="answer">Answer</div>
+
+          <div data-action="clear">Clear</div>
+          <div data-action="send">Send</div>
+
+          <div data-action="names">Names</div>
+          <div data-action="menu">Menu</div>
+        </div>
+      </div>
+    </div>
+    <div class="btnSet navPad">
+      <div class="keyboardCol">
+        <div class="btn confirm" data-action="ok">—</div>
+        <div class="btn">call</div>
+      </div>
+      <div class="keyboardCol">
+        <div class="btn up" data-action="up">⌃</div>
+        <div class="btn down" data-action="down">⌄</div>
+      </div>
+      <div class="keyboardCol">
+        <div class="btn cancel" data-action="cancel">—</div>
+        <div class="btn" data-action="end">end</div>
+      </div>
+    </div>
+    <div class="btnSet numPad">
+      <div class="keyboardCol">
+        <div class="btn" data-action="1">1</div>
+        <div class="btn" data-action="4">4</div>
+        <div class="btn" data-action="7">7</div>
+        <div class="btn" data-action="*">*</div>
+      </div>
+      <div class="keyboardCol">
+        <div class="btn" data-action="2">2</div>
+        <div class="btn" data-action="5">5</div>
+        <div class="btn" data-action="8">8</div>
+        <div class="btn" data-action="0">0</div>
+      </div>
+      <div class="keyboardCol">
+        <div class="btn" data-action="3">3</div>
+        <div class="btn" data-action="6">6</div>
+        <div class="btn" data-action="9">9</div>
+        <div class="btn" data-action="#">#</div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+  <script src="assets/index.js"></script>
+
+  <!-- REPLACE THE SAMPLE FLOW FILE WITH YOURS-->
+  <script src="assets/sample_flow.js"></script>
+</body>
+
+</html>
